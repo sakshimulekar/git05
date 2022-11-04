@@ -1,17 +1,30 @@
-let num =13;
-let count = 0;
-for(let i =2; i<=13; i++)
+
+function check(num)
 {
-	if(num%i==0)
+let factor=0;
+  for(i=1;i<=num;i++)
 {
-	count++;
+   factor++;
 }
-}
-if( count == 1)
+
+if(factor==2)
 {
-console.log("prime");
+return true;
 }
-else {
-console.log("not prime")
+else
+{
+return false;
 }
+}
+
+let ans=check(23);
+{
+ if(ans==true)
+  {
+   console.log(num,"is prime");
+  }
+else
+  {
+    console.log(num,"is nit prime");
+  }
 
