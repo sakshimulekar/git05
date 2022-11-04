@@ -1,3 +1,4 @@
+
 function check(num)
 {
 let factor=0;
@@ -26,3 +27,4 @@ else
   {
     console.log(num,"is nit prime");
   }
+
